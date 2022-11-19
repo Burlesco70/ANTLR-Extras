@@ -4,10 +4,14 @@ Esperimenti seguendo il tutorial ANTLR4 di Python Biella Group & Strumenta
 
 ## Per generare i parsers
 
+### Entity language
 java org.antlr.v4.Tool -Dlanguage=Python3 AntlrEntityLexer.g4 -o ../entity_parser
+
 java org.antlr.v4.Tool -Dlanguage=Python3 AntlrEntityParser.g4 -o ../entity_parser
 
+### XML
 java org.antlr.v4.Tool -Dlanguage=Python3 XMLLexer.g4 -o ../xml_parser
+
 java org.antlr.v4.Tool -Dlanguage=Python3 XMLParser.g4 -o ../xml_parser
 
 ## Custom "visitors"
