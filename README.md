@@ -2,7 +2,7 @@
 
 Esperimenti seguendo il tutorial ANTLR4 di Python Biella Group & Strumenta
 
-## Per generare i parsers
+## Per generare i parsers (dalla cartella "grammar")
 
 ### Entity language
 java org.antlr.v4.Tool -Dlanguage=Python3 AntlrEntityLexer.g4 -o ../entity_parser
